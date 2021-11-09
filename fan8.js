@@ -45,6 +45,7 @@ const allSlider = [
         background: '15.png'
     }
 ]
+console.log('Выступал Левченко С.');
 
 let block = document.querySelector('.slider');
 let entry = 0;
