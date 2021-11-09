@@ -1,0 +1,94 @@
+body{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    transition: 1s;
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.block{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+
+}
+.sliders{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.slider{
+    display: flex;
+    flex-direction: row;
+    transition: .5s;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.slide{
+    height: 100vh;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+
+}
+.sliderBut{
+    width: 40px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.356);
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    transition: .3s;
+}
+.sliderBut:hover{
+    background: rgba(0, 0, 0, 0.753);
+}
+.leftBut{
+    left: 100px;
+}
+.rightBut{
+    right: 100px;
+}
+.secret{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+input.easterEgg{
+    background: none;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+}
+img.lol{
+    display: block;
+    width: 5%;
+    position: absolute;
+}
+img.lole{
+    width: 2%;
+    position: absolute;
+    pointer-events: none;
+    z-index: 1;
+}
